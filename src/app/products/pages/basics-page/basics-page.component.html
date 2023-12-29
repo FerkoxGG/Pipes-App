@@ -26,8 +26,11 @@
       <hr />
       <ol>
         <li>fecha | date:'long':'GMT-6'</li>
+        <li>fecha | date:'long':'GMT-4'</li>
+        <li>fecha | date:'long':'':'es-CL'</li>
+        <li>fecha | date:'long':'':'fr-CA'</li>
+        <li>fecha | date:'long':'':'en-US'</li>
       </ol>
-      <li>fecha | date:'long':'GMT-4'</li>
     </p-card>
   </div>
   <div class="col-12 md:col-6">
@@ -53,15 +56,18 @@
         </li>
       </ol>
 
-      <hr>
+      <hr />
 
       <ol>
         <li>
-          {{ customDate | date : "long":'GMT-6' }}
+          {{ customDate | date : "long" : "GMT-6" }}
         </li>
         <li>
-          {{ customDate | date : "long":'GMT-4' }}
+          {{ customDate | date : "long" : "GMT-4" }}
         </li>
+        <li>{{ customDate | date : "long": '' : "es-CL" }}</li>
+        <li>{{ customDate | date : "long": '' : "fr-CA" }}</li>
+        <li>{{ customDate | date : "long": '' : "en-US" }}</li>
       </ol>
     </p-card>
   </div>
