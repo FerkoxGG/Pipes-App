@@ -5,6 +5,9 @@ import { CardModule } from "primeng/card";
 import { FieldsetModule } from "primeng/fieldset";
 import { MenubarModule } from "primeng/menubar";
 import { PanelModule } from "primeng/panel";
+import { ToolbarModule } from 'primeng/toolbar';
+import { RippleModule } from 'primeng/ripple';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   declarations: [],
@@ -13,7 +16,10 @@ import { PanelModule } from "primeng/panel";
     CardModule,
     FieldsetModule,
     MenubarModule,
-    PanelModule
+    PanelModule,
+    ToolbarModule,
+    RippleModule,
+    TableModule
   ]
 })
 export class PrimeNgModule {}
