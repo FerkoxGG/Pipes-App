@@ -21,7 +21,7 @@ import { SortByPipe } from "./pipes/sort-by.pipe";
     //Pipes
     ToggleCasePipe,
     CanFlyPipe,
-    SortByPipe
+    SortByPipe,
   ],
   imports: [CommonModule, PrimeNgModule, ProductsRoutingModule]
 })

@@ -45,4 +45,12 @@ export class OrderComponent {
   changeOrder(value: keyof Hero) {
     this.orderBy = value;
   }
+
+  public colorMap = {
+    "=0": "Rojo",
+    "=1": "Negro",
+    "=2": "Azul",
+    "=3": "Verde",
+    other: "Transparente",
+  }
 }
